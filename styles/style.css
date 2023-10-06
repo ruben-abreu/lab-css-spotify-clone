@@ -169,12 +169,42 @@ nav {
   max-width: 100%;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .kanye {
+    padding: 10px;
+    margin: 45px;
+  }
+  .spotify-icon-white {
+    width: 65px;
+    height: 65px;
+  }
+}
+
 @media (max-width: 768px) {
   .kanye {
-    padding: 20px;
+    padding: 1px;
+    margin: 10px;
+    height: auto;
   }
   .spotify-icon-white {
     width: 40px;
     height: 40px;
+    padding-right: 18px;
+    padding-left: 2px;
+  }
+
+  .nav-bar {
+    justify-content: space-between;
+  }
+
+  .nav-bar > li {
+    display: block;
+    padding: 2px;
+    font-size: 0.7em;
+  }
+
+  .s-logo {
+    padding: 10px;
+    height: 25px;
   }
 }
